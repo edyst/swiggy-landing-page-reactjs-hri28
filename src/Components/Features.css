@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+.features-container{
+    background-color: #2b1e16;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right:-6px;
+}
+.row-item{
+    text-align: center;
+}
+.features-container > .row-item{
+    flex: 1 1 30%;
+}
+.featuresimg{
+    height: 200px;
+    width: auto;
+}
+.row-item > h6{
+    color: #ffff;
+    font-weight: bold;
+    padding-top: 3rem;
+    font-size: 18px;
+}
+.row-item > p{
+    padding: 10px 0 40px 0;
+    font-size: 15px;
+    color: #a7948b;
+    font-weight: normal;
+}
