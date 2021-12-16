@@ -1,0 +1,72 @@
+.footer-heading{
+    font-weight: bold;
+  }
+  
+  .cityh6{
+    position: relative;
+    margin-left: 52px;
+  }
+  
+  .footer{
+    background-color: black;
+    color: white;
+    padding: 50px;
+  }
+  .container{
+    display: flex;
+  }
+  @media(max-width:730px){
+    .container{
+      flex-wrap: wrap;
+      flex-direction: row;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+  .citylinks{
+    margin-top: 20px;
+  }
+  ul li{
+    text-decoration: none;
+    padding: 6px;
+    list-style: none;
+  }
+  .footerlinks{
+      text-decoration: none;
+    color: white;
+  }
+  .footerlinks:hover{
+    font-weight: bold;
+    color: white;
+  }
+  .footerimg1{
+    height:65px;
+    width:200px;
+    position: relative;
+  }
+  .footerimg1:hover{
+    transition: all 0.3s ease;
+   transform: scale(1.1);
+  }
+  
+  .container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .social-icons{
+    display: inline-flex;
+  }
+  .social-icon{
+    padding: 10px;
+    font-size: 45px;
+    align-items: center;
+  }
+  
+  @media(max-width:730px){
+    .container-2{
+      flex-wrap: wrap;
+      flex-direction: row;
+      text-align: center;
+    }
+  }

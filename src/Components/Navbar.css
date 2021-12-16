@@ -1,0 +1,72 @@
+.swiggylogo{
+    height: 125px;
+    width: 200px;
+    opacity: 1;
+    fill: #fc8019;
+
+}
+.navbar-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.login{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+
+}
+.login:hover{
+    color: #f17e30;
+}
+.signup{
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+}
+.one {
+    padding: 60px 0 0 60px;
+}
+.two {
+    padding: 60px 60px 0 60px;
+}
+@media(max-width:1059px){
+    .navbar-container{
+        display: inline-block;
+    }
+    .two{
+        padding: 0 60px 20px 60px;
+    }
+}
+@media(max-width:597px){
+    .navbar-container{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .one{
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+    }
+    .two{
+        justify-content: center;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        margin-left: 40px;
+    }
+    .login{
+        justify-content: center;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .signup{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
