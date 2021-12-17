@@ -1,0 +1,11 @@
+.hero-container{
+    padding-left: 65px;
+}
+.hero-container > h1{
+    font-weight: bold;
+    overflow: hidden;
+}
+.hero-container > h4{
+    color: #686b78;
+    font-weight: 400;
+}
